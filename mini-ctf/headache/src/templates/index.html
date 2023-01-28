@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Headache</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <body class="dark dark:bg-gray-900">
+    <section>
+      <div
+        class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <img class="w-full hidden dark:block rounded-lg" src="{{url_for('static', filename='meme.png')}}">
+        <div class="mt-4 md:mt-0">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            Heard about http headers?
+          </h2>
+          <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+            An HTTP header is a field of an HTTP request or response that passes additional context and metadata about
+            the request or response. For example, a request message can use headers to indicate it's preferred media
+            formats, while a response can use header to indicate the media format of the returned body.
+          </p>
+          <!-- <p>
+            in life, if you really <em>wanna-something</em> then you may ask for it, politely, for instance, I really
+            really wanna have <em>the-flag</em>.
+          </p> -->
+          <a href="https://reqbin.com/req/c-ea0d5rlb/curl-send-header-example"
+            class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+            <span
+              class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              Interesting stuff
+            </span>
+          </a>
+
+          {% if polite %}
+          <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+            I told you being polite will do it, here is something for you
+            <br>
+            <strong class="text-white">securinets{aka_securinets_isi_rahi_r3aaaaaaaaaaaad_barsha}</strong>
+          </p>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+  </body>
+
+</body>
+
+</html>
