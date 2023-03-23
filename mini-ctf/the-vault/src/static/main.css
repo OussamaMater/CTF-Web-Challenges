@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+
+    background: #1e293b;
+}
+
+.navbar-dark {
+    background-color: #303030;
+    border-color: transparent;
+}
+
+.container-body {
+    width: 800px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.vault-input {
+    margin: 5px;
+    width: 210px;
+}
