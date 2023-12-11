@@ -3,6 +3,7 @@
 You will find the Web Challenges I write for **SecuriNets ISI** organized by competition.
 
 ## SecuriNets ISI Mini CTF
+
  | **Challenge**                                   | **Tags**                                | **Difficulty** |
  | ----------------------------------------------- | --------------------------------------- | -------------- |
  | [Headache](mini-ctf/headache/)                  | HTTP headers                            | Easy           |
@@ -16,3 +17,5 @@ You will find the Web Challenges I write for **SecuriNets ISI** organized by com
  | [The Interview](mini-ctf/the-interview)         | Cookies, Encoding                       | Easy           |
  | [The Vault](mini-ctf/the-vault)                 | SQL injection, Arbitrary File Inclusion | Hard           |
  | [Securinets Backend](finals/securinets-backend) | Mass Assignment                         | Hard           |
+ | [The Interview 2](mini-ctf/the-interview-2/)    | SQL injection, Encoding                 | Easy           |
+ | [Daa Crawler](mini-ctf/daa-crawler/)            | DNS Rebinding, SSRF                     | Medium         |
