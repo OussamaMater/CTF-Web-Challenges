@@ -19,3 +19,5 @@ You will find the Web Challenges I write for **SecuriNets ISI** organized by com
  | [Securinets Backend](finals/securinets-backend) | Mass Assignment                         | Hard           |
  | [The Interview 2](mini-ctf/the-interview-2/)    | SQL injection, Encoding                 | Easy           |
  | [Daa Crawler](mini-ctf/daa-crawler/)            | DNS Rebinding, SSRF                     | Medium         |
+ | [Coach de vie](quals/coach-de-vie/)             | Type Juggling                           | Easy           |
+ | [Lyricsa](quals/lyricsa/)                       | Blind Command Injection                 | Hard           |
