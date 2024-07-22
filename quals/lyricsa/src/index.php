@@ -41,8 +41,6 @@ function getSongLyrics(string $song): ?array
 
         $command = "cd ./songs; ls | grep -i $song";
 
-        var_dump($command);
-        die();
         $output = shell_exec($command);
 
         if (is_null($output) || !$output) return null;
